@@ -26,7 +26,8 @@ for i in range(len(new_df)):
         new_df.at[i+1, "Lat"] = location["lat"]
         new_df.at[i+1, "Long"] = location["lng"]
 
-print(new_df)
+#Debug check
+#print(new_df)
 
 #calculates the weather adjusted speed using Directions API for various routes
 def get_weather_speed(origin, destination, gmaps):
