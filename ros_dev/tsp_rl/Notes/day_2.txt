@@ -1,0 +1,2 @@
+The main aim is to create a traveling salesman style system that visualizes the most optimal route for
+an RL agent to travel across multiple locations and back to a start point. 
